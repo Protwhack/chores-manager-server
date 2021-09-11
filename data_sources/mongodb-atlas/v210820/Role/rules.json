@@ -1,0 +1,29 @@
+{
+    "collection": "Role",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "create_chore": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "delete_chore": {},
+                "delete_house": {},
+                "edit_chore": {},
+                "edit_house": {},
+                "id": {},
+                "invite": {},
+                "isDeleted": {},
+                "kick": {},
+                "role": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

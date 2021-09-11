@@ -1,0 +1,23 @@
+{
+    "collection": "Chore",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "createdAt": {},
+                "deleteAt": {},
+                "id": {},
+                "image": {},
+                "isDeleted": {},
+                "name": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

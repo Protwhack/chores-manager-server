@@ -1,0 +1,25 @@
+{
+    "collection": "User",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "createdAt": {},
+                "deleteAt": {},
+                "houses": {},
+                "id": {},
+                "image": {},
+                "isDeleted": {},
+                "token": {},
+                "updatedAt": {},
+                "username": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

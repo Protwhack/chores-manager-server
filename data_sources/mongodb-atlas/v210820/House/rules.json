@@ -1,0 +1,25 @@
+{
+    "collection": "House",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "account": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "id": {},
+                "image": {},
+                "isDeleted": {},
+                "name": {},
+                "password": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "collection": "House_Area",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "area": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "house": {},
+                "id": {},
+                "isDeleted": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

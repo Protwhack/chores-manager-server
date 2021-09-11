@@ -1,0 +1,23 @@
+{
+    "collection": "Area_Chore",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "area": {},
+                "chore": {},
+                "createdAt": {},
+                "deleteAt": {},
+                "id": {},
+                "isDeleted": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

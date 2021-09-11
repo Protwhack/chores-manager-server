@@ -1,0 +1,23 @@
+{
+    "collection": "House_Routine",
+    "database": "v210820",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "createdAt": {},
+                "deleteAt": {},
+                "house": {},
+                "id": {},
+                "isDeleted": {},
+                "routine": {},
+                "updatedAt": {}
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
