@@ -7,15 +7,16 @@
             "apply_when": {},
             "fields": {
                 "account": {},
+                "areas": {},
                 "createdAt": {},
                 "deleteAt": {},
                 "id": {},
-                "image": {},
-                "isDeleted": {},
+                "imageUrl": {},
                 "name": {},
                 "password": {},
                 "updatedAt": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

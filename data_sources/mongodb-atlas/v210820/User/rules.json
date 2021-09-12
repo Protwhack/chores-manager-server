@@ -8,14 +8,14 @@
             "fields": {
                 "createdAt": {},
                 "deleteAt": {},
-                "houses": {},
                 "id": {},
-                "image": {},
+                "imageUrl": {},
                 "isDeleted": {},
                 "token": {},
                 "updatedAt": {},
                 "username": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

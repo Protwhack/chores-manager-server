@@ -1,4 +1,41 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "create_routine": {
+            "bsonType": "bool"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "delete_house": {
+            "bsonType": "bool"
+        },
+        "delete_routine": {
+            "bsonType": "bool"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "edit_house": {
+            "bsonType": "bool"
+        },
+        "edit_routine": {
+            "bsonType": "bool"
+        },
+        "invite_roommate": {
+            "bsonType": "bool"
+        },
+        "kick_roommate": {
+            "bsonType": "bool"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Role"
 }

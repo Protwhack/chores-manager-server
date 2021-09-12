@@ -1,1 +1,26 @@
-{}
+{
+    "area": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Area",
+        "source_key": "area",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "chore": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Chore",
+        "source_key": "chore",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "owner": {
+        "ref": "#/relationship/mongodb-atlas/v210820/User",
+        "source_key": "owner",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "routine": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Routine",
+        "source_key": "routine",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

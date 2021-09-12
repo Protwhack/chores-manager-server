@@ -1,4 +1,29 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "account": {
+            "bsonType": "string"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "imageUrl": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "password": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "House"
 }

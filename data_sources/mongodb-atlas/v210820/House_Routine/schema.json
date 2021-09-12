@@ -1,4 +1,23 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "house": {
+            "bsonType": "objectId"
+        },
+        "routine": {
+            "bsonType": "objectId"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "House_Routine"
 }

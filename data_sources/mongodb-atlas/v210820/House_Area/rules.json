@@ -11,9 +11,9 @@
                 "deleteAt": {},
                 "house": {},
                 "id": {},
-                "isDeleted": {},
                 "updatedAt": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

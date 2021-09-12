@@ -1,1 +1,14 @@
-{}
+{
+    "house": {
+        "ref": "#/relationship/mongodb-atlas/v210820/House",
+        "source_key": "house",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "user": {
+        "ref": "#/relationship/mongodb-atlas/v210820/User",
+        "source_key": "user",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

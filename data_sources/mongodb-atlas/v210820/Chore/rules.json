@@ -6,14 +6,15 @@
             "name": "default",
             "apply_when": {},
             "fields": {
+                "areas": {},
                 "createdAt": {},
                 "deleteAt": {},
                 "id": {},
-                "image": {},
-                "isDeleted": {},
+                "imageUrl": {},
                 "name": {},
                 "updatedAt": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

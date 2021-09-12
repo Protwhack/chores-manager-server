@@ -1,4 +1,44 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "area": {
+            "bsonType": "objectId"
+        },
+        "chore": {
+            "bsonType": "objectId"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "duration": {
+            "bsonType": "string"
+        },
+        "isCompleted": {
+            "bsonType": "bool"
+        },
+        "isPrivate": {
+            "bsonType": "bool"
+        },
+        "note": {
+            "bsonType": "string"
+        },
+        "owner": {
+            "bsonType": "objectId"
+        },
+        "routine": {
+            "bsonType": "objectId"
+        },
+        "timestamp": {
+            "bsonType": "timestamp"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Event"
 }

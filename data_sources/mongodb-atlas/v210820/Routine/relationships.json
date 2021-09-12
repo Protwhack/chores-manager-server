@@ -1,1 +1,20 @@
-{}
+{
+    "areas": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Area",
+        "source_key": "areas",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "chores": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Chore",
+        "source_key": "chores",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "owners": {
+        "ref": "#/relationship/mongodb-atlas/v210820/User",
+        "source_key": "owners",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

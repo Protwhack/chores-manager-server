@@ -1,1 +1,8 @@
-{}
+{
+    "areas": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Area",
+        "source_key": "areas",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

@@ -1,4 +1,38 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "chores": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ],
+            "unique": true
+        },
+        "color": {
+            "bsonType": "string"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "imageUrl": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "note": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Area"
 }

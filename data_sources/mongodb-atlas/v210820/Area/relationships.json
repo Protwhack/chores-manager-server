@@ -1,1 +1,8 @@
-{}
+{
+    "chores": {
+        "ref": "#/relationship/mongodb-atlas/v210820/Chore",
+        "source_key": "chores",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

@@ -1,4 +1,23 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "area": {
+            "bsonType": "objectId"
+        },
+        "chore": {
+            "bsonType": "objectId"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Area_Chore"
 }

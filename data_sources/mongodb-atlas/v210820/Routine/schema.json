@@ -1,4 +1,74 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "areas": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ],
+            "unique": true
+        },
+        "chores": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ],
+            "unique": true
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "days": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "int"
+                }
+            ],
+            "unique": true
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "endDate": {
+            "bsonType": "date"
+        },
+        "endTime": {
+            "bsonType": "string"
+        },
+        "frequency": {
+            "bsonType": "object"
+        },
+        "isPrivate": {
+            "bsonType": "bool"
+        },
+        "note": {
+            "bsonType": "string"
+        },
+        "owners": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ],
+            "unique": true
+        },
+        "startDate": {
+            "bsonType": "date"
+        },
+        "startTime": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Routine"
 }

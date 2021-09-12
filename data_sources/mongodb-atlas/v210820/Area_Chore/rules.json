@@ -11,9 +11,9 @@
                 "createdAt": {},
                 "deleteAt": {},
                 "id": {},
-                "isDeleted": {},
                 "updatedAt": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

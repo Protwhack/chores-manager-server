@@ -1,4 +1,26 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "house": {
+            "bsonType": "objectId"
+        },
+        "role": {
+            "bsonType": "objectId"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        },
+        "user": {
+            "bsonType": "objectId"
+        }
+    },
     "title": "House_User"
 }

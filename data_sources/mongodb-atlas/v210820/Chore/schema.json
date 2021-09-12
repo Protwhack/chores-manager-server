@@ -1,4 +1,32 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "areas": {
+            "bsonType": "array",
+            "items": [
+                {
+                    "bsonType": "objectId"
+                }
+            ],
+            "unique": true
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "imageUrl": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
     "title": "Chore"
 }

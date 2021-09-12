@@ -10,11 +10,11 @@
                 "deleteAt": {},
                 "house": {},
                 "id": {},
-                "isDeleted": {},
                 "role": {},
                 "updatedAt": {},
                 "user": {}
             },
+            "read": true,
             "insert": true,
             "delete": true,
             "search": true,

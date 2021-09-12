@@ -1,4 +1,26 @@
 {
-    "properties": {},
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "deletedAt": {
+            "bsonType": "date"
+        },
+        "imageUrl": {
+            "bsonType": "string"
+        },
+        "token": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        },
+        "username": {
+            "bsonType": "string"
+        }
+    },
     "title": "User"
 }
