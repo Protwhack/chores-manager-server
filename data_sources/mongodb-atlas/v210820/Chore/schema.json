@@ -18,7 +18,7 @@
         "deletedAt": {
             "bsonType": "date"
         },
-        "imageUrl": {
+        "iconUrl": {
             "bsonType": "string"
         },
         "isCommon": {
@@ -33,10 +33,7 @@
     },
     "required": [
         "_id",
-        "name",
-        "isCommon",
-        "createdAt",
-        "updatedAt"
+        "name"
     ],
     "title": "Chore"
 }

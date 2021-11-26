@@ -9,8 +9,7 @@
                 {
                     "bsonType": "objectId"
                 }
-            ],
-            "unique": true
+            ]
         },
         "color": {
             "bsonType": "string",
@@ -24,6 +23,9 @@
         },
         "deletedAt": {
             "bsonType": "date"
+        },
+        "iconUrl": {
+            "bsonType": "string"
         },
         "imageUrl": {
             "bsonType": "string"
