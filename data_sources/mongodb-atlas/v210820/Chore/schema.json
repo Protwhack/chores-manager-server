@@ -21,6 +21,9 @@
         "imageUrl": {
             "bsonType": "string"
         },
+        "isCommon": {
+            "bsonType": "bool"
+        },
         "name": {
             "bsonType": "string"
         },
@@ -28,5 +31,12 @@
             "bsonType": "date"
         }
     },
+    "required": [
+        "_id",
+        "name",
+        "isCommon",
+        "createdAt",
+        "updatedAt"
+    ],
     "title": "Chore"
 }

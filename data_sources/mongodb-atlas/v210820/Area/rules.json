@@ -9,9 +9,11 @@
                 "chores": {},
                 "color": {},
                 "createdAt": {},
+                "createdBy": {},
                 "deleteAt": {},
                 "id": {},
                 "imageUrl": {},
+                "isDefault": {},
                 "name": {},
                 "note": {},
                 "updatedAt": {}
